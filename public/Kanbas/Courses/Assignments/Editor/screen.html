@@ -1,0 +1,171 @@
+<html>
+
+<head></head>
+
+<body>
+    <table width="100%">
+        <tbody>
+            <tr>
+                <td valign="top">
+                    <ul>
+                        <li><a href="/Kanbas/Account/Profile/screen.html"> Account</a></li>
+                        <li>
+                            <a href="/Kanbas/Dashboard/screen.html">Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="/Kanbas/Courses/Home/screen.html">Courses</a>
+                        </li>
+                        <li>
+                            <a href="/Kanbas/Calendar/index.html">Calendar</a>
+                        </li>
+                        <li><a href="/Kanbas/Inbox/index.html">Inbox</a></li>
+                        <li><a href="/Kanbas/History/index.html">History</a></li>
+                        <li><a href="/Kanbas/Studio/index.html">Studio</a></li>
+                        <li><a href="/Kanbas/Commons/index.html">Commons</a></li>
+                        <li><a href="/Kanbas/Help/index.html">Help</a></li>
+                    </ul>
+                </td>
+                <td valign="top">
+                    <ul>
+                        <li>
+                            <a href="/Kanbas/Courses/Home/screen.html">
+                                Home</a>
+                        </li>
+                        <li><a href="/Kanbas/Courses/Modules/screen.html">
+                                Modules</a>
+                        </li>
+                        <li><a href="/Kanbas/Courses/Piazza/index.html">
+                                Piazza</a></li>
+                        <li>
+                            <a href="/Kanbas/Courses/Zoom Meetings/index.html">
+                                Zoom Meetings</a>
+                        </li>
+                        <li><a href="/Kanbas/Courses/Assignments/screen.html">
+                                Assignments</a></li>
+                        <li><a href="/Kanbas/Courses/Quizzes/screen.html">
+                                Quizzes</a></li>
+                        <li><a href="/Kanbas/Courses/Grades/screen.html">
+                                Grades</a></li>
+                        <li><a href="/Kanbas/Courses/People/screen.html">
+                                People</a></li>
+                        <li><a href="/Kanbas/Courses/PanaptoVideo/screen.html">
+                                PanaptoVideo</a></li>
+                        <li><a href="/Kanbas/Courses/Discussions/screen.html">
+                                Discussions</a></li>
+                        <li><a href="/Kanbas/Courses/Announcements/screen.html">
+                                Announcements</a></li>
+                        <li><a href="/Kanbas/Courses/Pages/screen.html">
+                                Pages</a></li>
+                        <li><a href="/Kanbas/Courses/Files/index.html">
+                                Files</a></li>
+                        <li><a href="/Kanbas/Courses/Rubrics/screen.html">
+                                Rubrics</a></li>
+                        <li><a href="/Kanbas/Courses/Outcomes/screen.html">
+                                Outcomes</a></li>
+                        <li><a href="/Kanbas/Courses/Collaboration/screen.html">
+                                Collaboration</a></li>
+                        <li><a href="/Kanbas/Courses/Syllabus/screen.html">
+                                Syllabus</a></li>
+
+                    </ul>
+                </td>
+                <td valign="top">
+                    <form action="/Kanbas/Courses/Assignments/screen.html">
+                        <label>Assignment Name</label><br \>
+                        <input type="text" name="wd-assignment-name" value="Assignment 1" /><br />
+
+                        <label>Assignment Description</label><br />
+                        <textarea name="wd-assignment-description" rows="4" cols="50">
+  This is the first assignment for Web Dev.
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ipsum laudantium veniam optio, dicta quas voluptas facilis alias laborum voluptatibus maiores ducimus dolorem molestiae labore, harum rerum? Quis, quam vitae!
+</textarea><br />
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><label>Points</label></td>
+                                    <td><input type="number" value="100" min="0" max="100" /></td>
+                                </tr>
+                                <tr>
+                                    <td><label>Assignment Group</label></td>
+                                    <td>
+                                        <select>
+                                            <option>ASSIGNMENT</option>
+                                            <option>QUIZ</option>
+                                            <option>EXAM</option>
+                                            <option>PROJECT</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label>Submission Type</label></td>
+                                    <td>
+                                        <select>
+                                            <option>Online</option>
+                                            <option>Group Assignments</option>
+                                            <option>Peer Reviews</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td valign="top"><label>Online Entry Options</label></td>
+                                    <td>
+                                        <input type="checkbox" name="wd-submission-type" value="TEXT" checked />
+                                        <label>Text Entry</label> <br />
+                                        <input type="checkbox" name="wd-submission-type" value="WEBSITE" />
+                                        <label>Website URL</label> <br />
+                                        <input type="checkbox" name="wd-submission-type" value="MEDIA" />
+                                        <label>Media Recordings</label> <br />
+                                        <input type="checkbox" name="wd-submission-type" value="ANNOTATION" />
+                                        <label>Student Annotations</label> <br />
+                                        <input type="checkbox" name="wd-submission-type" value="FILE" checked />
+                                        <label>File Uploads</label> <br />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td valign="top"><label>Assign</label>
+
+                                    </td>
+                                    <td>
+                                        Assign to:<br />
+                                        <input type="text" name="assign-to" placeholder="Assign to:"> <br />
+
+                                        Due:<br />
+                                        <input type="date" name="wd-assignment-due-date" min="2023-01-05"
+                                            max="2023-01-23" value="2023-01-15" /><br />
+                                        Available from:<br />
+                                        <input type="date" name="wd-assignment-available-date" min="2023-01-05"
+                                            max="2023-01-23" value="2023-01-15" /><br />
+                                        Available unitl:<br />
+                                        <input type="date" name="wd-assignment-available-until-date" min="2023-01-05"
+                                            max="2023-01-23" value="2023-01-15" /><br />
+
+                                        <a href="/Kanbas/Courses/Assignments/screen.html"><button>
+                                            Cancel
+                                        </button></a>
+                                        <button>
+                                            Save
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label></label></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><label></label></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><label></label></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </form>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
